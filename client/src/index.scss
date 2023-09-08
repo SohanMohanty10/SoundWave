@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;800&display=swap');
+
+@font-face {
+    font-family: 'against'; 
+    src: url('../src/fonts/against\ regular.woff') format('woff2'),
+         url('../src/fonts/against\ regular\ \(1\).woff') format('woff');
+    font-weight: normal; /* or bold if your font supports it */
+    font-style: normal; /* or italic if your font supports it */
+}
+
+@font-face {
+    font-family: 'soria'; 
+    src: url('../src/fonts/soria-font.woff') format('woff2');
+    font-weight: normal; /* or bold if your font supports it */
+    font-style: normal; /* or italic if your font supports it */
+}
+
+@font-face {
+    font-family: 'object-sans'; 
+    src: url('../src/fonts/PPObjectSans-Regular.woff') format('woff2'),
+         url('../src/fonts/PPObjectSans-Heavy.woff') format('woff');
+    font-weight: normal; /* or bold if your font supports it */
+    font-style: normal; /* or italic if your font supports it */
+}
+
+@font-face {
+    font-family: 'cfour'; 
+    src: url('../src/fonts/Cfour.woff') format('woff2');
+    font-weight: normal; /* or bold if your font supports it */
+    font-style: normal; /* or italic if your font supports it */
+}
+
+@font-face {
+    font-family: 'gyahegi'; 
+    src: url('../src/fonts/Gyahegi.woff') format('woff2');
+    font-weight: normal; /* or bold if your font supports it */
+    font-style: normal; /* or italic if your font supports it */
+}
+
+@font-face {
+    font-family: 'heroeau'; 
+    src: url('../src/fonts/HEROEAU-ELEGANT-DEMO-BF6414311758e86.woff') format('woff2');
+    font-weight: normal; /* or bold if your font supports it */
+    font-style: normal; /* or italic if your font supports it */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cabin", sans-serif;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+}

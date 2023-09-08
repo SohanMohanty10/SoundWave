@@ -1,0 +1,89 @@
+@import "../../css-config/mixins.scss";
+
+.success-panel{
+    margin: 50px 0;
+    @include md{
+        margin: 75px 0;
+    }
+    .layout{
+        background: url('../../assets/subscribeBg3.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0 auto;
+        width: 400px;
+        height:400px;
+        @include md{
+            transform: translateX(1%);
+            width: 700px;
+            height: 400px;
+            max-width: 1200px;
+        }
+    }
+    .success-content{
+        padding: 50px;
+        .big-text{
+            font-family: 'poppins', 'sans-serif';
+            text-transform: uppercase;
+            font-size: 20px;
+            font-weight: 800;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px 15px;
+            @include md{
+                margin-top: 25px;
+                font-weight: 500;
+                font-size: 40px;
+                letter-spacing: 3.4px;
+            }
+        }
+        .small-text{
+            font-family: 'poppins','sans-serif';
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px 15px;
+            @include md{
+                font-size: 24px;
+            }
+        }
+        .details{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 20px;
+            font-family: 'poppins','sans-serif';
+            @include md{
+                margin-left: 40px;
+            }
+        }
+        button{
+            margin-top: 33px;
+            margin-left: 68px;
+            font-family: 'cfour','sans-serif';
+            letter-spacing: 2px;
+            outline: none;
+            border: 0;
+            height: 40px;
+            width: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 12px;
+            color: white;
+            background-color: #8e2de2;
+            border-bottom: 3px solid #6516aa;
+            @include md{
+                margin-top: 75px;
+                margin-left: 210px;
+                width: 170px;
+            }
+            &:hover{
+                opacity: 0.8;
+            }
+        }
+    }
+}
